@@ -239,11 +239,11 @@ export default function Page() {
                   ניהול צרכים חקירתיים למשרדי עורכי דין
                 </div>
 
-                <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-text-primary leading-tight">
+                <h1 className="text-[1.875rem] sm:text-[2.375rem] lg:text-[2.75rem] font-frank font-medium text-text-primary leading-[1.15]">
                   כשעולה צורך חקירתי בתיק, פונים לפאזל.
                 </h1>
 
-                <p className="text-base sm:text-lg text-text-secondary leading-relaxed max-w-xl">
+                <p className="text-base sm:text-[1.0625rem] text-text-secondary leading-[1.75] max-w-xl">
                   פאזל מגדירה יחד עם המשרד את הצורך בתיק, מתאמת את אנשי המקצוע המתאימים, מנהלת
                   את העבודה ומעבירה עדכונים ותוצרים לאורך הדרך.
                 </p>
@@ -288,11 +288,11 @@ export default function Page() {
             <div className="mb-12">
               <h2
                 id="services-heading"
-                className="text-2xl sm:text-3xl font-bold text-text-primary mb-4"
+                className="text-[1.5rem] sm:text-[2rem] font-frank font-normal text-text-primary mb-4 leading-[1.3]"
               >
                 מענה לצרכים חקירתיים בתיקי נזיקין
               </h2>
-              <p className="text-text-secondary leading-relaxed max-w-2xl">
+              <p className="text-text-secondary leading-[1.75] max-w-2xl">
                 בכל תיק עשויים לעלות פערים ושאלות אחרות. פאזל מסייעת למשרד להגדיר מה נדרש לבדוק
                 ולנהל את המענה המתאים.
               </p>
@@ -329,7 +329,7 @@ export default function Page() {
           <div className="max-w-6xl mx-auto px-5">
             <h2
               id="how-heading"
-              className="text-2xl sm:text-3xl font-bold text-text-primary mb-16 text-center"
+              className="text-[1.5rem] sm:text-[2rem] font-frank font-normal text-text-primary mb-16 text-center leading-[1.3]"
             >
               איך זה עובד
             </h2>
@@ -396,11 +396,11 @@ export default function Page() {
               <div>
                 <h2
                   id="why-heading"
-                  className="text-2xl sm:text-3xl font-bold text-text-primary leading-snug mb-5"
+                  className="text-[1.5rem] sm:text-[2rem] font-frank font-medium text-text-primary leading-[1.25] mb-5"
                 >
                   כתובת אחת. תהליך אחד. קשר רציף עם המשרד.
                 </h2>
-                <p className="text-text-secondary leading-relaxed mb-8">
+                <p className="text-text-secondary leading-[1.75] mb-8">
                   פאזל פועלת כמנהלת התהליך מול המשרד. המשרד לא צריך לתאם ישירות מול אנשי
                   מקצוע שונים — פאזל מנהלת את הצד התפעולי ומעדכנת את המשרד בכל שלב.
                 </p>
@@ -445,11 +445,11 @@ export default function Page() {
                 <div>
                   <h2
                     id="contact-heading"
-                    className="text-2xl sm:text-3xl font-bold text-text-primary mb-4 leading-snug"
+                    className="text-[1.5rem] sm:text-[2rem] font-frank font-normal text-text-primary mb-4 leading-[1.3]"
                   >
                     יש צורך חקירתי בתיק? נתחיל בשיחה.
                   </h2>
-                  <p className="text-text-secondary leading-relaxed">
+                  <p className="text-text-secondary leading-[1.75]">
                     ספרו לנו כיצד אפשר לחזור אליכם. בשיחה נבין את הצורך הראשוני ונראה אם
                     ואיך ניתן להתקדם.
                   </p>
@@ -493,7 +493,7 @@ export default function Page() {
                 <div className="flex items-center gap-3 mt-auto pt-4 border-t border-border">
                   <Logo size={30} />
                   <div className="flex flex-col">
-                    <span className="text-sm font-semibold text-text-primary">פאזל</span>
+                    <span className="text-sm font-frank font-medium text-text-primary leading-snug">פאזל</span>
                     <span className="text-xs text-text-muted leading-tight">ניהול צרכים חקירתיים למשרדי עורכי דין</span>
                   </div>
                 </div>
@@ -518,7 +518,7 @@ export default function Page() {
             <a href="#" className="flex items-center gap-2.5 group" aria-label="פאזל – חזרה לראש הדף">
               <Logo size={28} />
               <div className="flex flex-col">
-                <span className="text-sm font-semibold text-text-primary">פאזל</span>
+                <span className="text-sm font-frank font-medium text-text-primary leading-snug">פאזל</span>
                 <span className="text-xs text-text-muted">ניהול צרכים חקירתיים למשרדי עורכי דין</span>
               </div>
             </a>

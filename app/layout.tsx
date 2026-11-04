@@ -1,12 +1,21 @@
 import type { Metadata } from 'next'
-import { Heebo } from 'next/font/google'
+import { Frank_Ruhl_Libre, IBM_Plex_Sans_Hebrew } from 'next/font/google'
 import './globals.css'
 
-const heebo = Heebo({
+/* Headings (H1, H2, logo wordmark) — classical, editorial Hebrew serif */
+const frank = Frank_Ruhl_Libre({
   subsets: ['hebrew', 'latin'],
   display: 'swap',
-  variable: '--font-heebo',
-  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-frank',
+  weight: ['400', '500', '700'],
+})
+
+/* Body, UI, navigation, forms — clean, highly readable Hebrew sans-serif */
+const plex = IBM_Plex_Sans_Hebrew({
+  subsets: ['hebrew', 'latin'],
+  display: 'swap',
+  variable: '--font-plex',
+  weight: ['300', '400', '500', '600'],
 })
 
 export const metadata: Metadata = {
@@ -30,8 +39,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="he" dir="rtl" className={heebo.variable}>
-      <body className="font-heebo bg-canvas text-text-primary">
+    <html lang="he" dir="rtl" className={`${frank.variable} ${plex.variable}`}>
+      <body className="font-plex bg-canvas text-text-primary">
         {children}
       </body>
     </html>

@@ -40,7 +40,7 @@ export default function Nav() {
           onClick={closeMenu}
         >
           <Logo size={34} />
-          <span className="text-xl font-semibold text-text-primary tracking-tight leading-none">
+          <span className="text-xl font-frank font-medium text-text-primary leading-none">
             פאזל
           </span>
         </a>

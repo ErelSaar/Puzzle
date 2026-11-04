@@ -9,7 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        heebo: ['var(--font-heebo)', 'Heebo', 'sans-serif'],
+        /* Frank Ruhl Libre — major headings, logo wordmark */
+        frank: ['var(--font-frank)', 'Georgia', 'serif'],
+        /* IBM Plex Sans Hebrew — body, nav, buttons, forms */
+        plex: ['var(--font-plex)', 'Arial', 'sans-serif'],
       },
       colors: {
         canvas: '#0a0a0b',

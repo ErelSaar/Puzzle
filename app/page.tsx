@@ -234,11 +234,6 @@ export default function Page() {
 
               {/* Text — appears first in DOM = right side on desktop in RTL */}
               <div className="flex-1 flex flex-col items-start gap-6">
-                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border bg-elevated text-text-muted text-xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent-light flex-shrink-0" aria-hidden="true" />
-                  ניהול צרכים חקירתיים למשרדי עורכי דין
-                </div>
-
                 <h1 className="text-[1.875rem] sm:text-[2.375rem] lg:text-[2.75rem] font-semibold text-text-primary leading-[1.2]">
                   כשעולה צורך חקירתי בתיק, פונים לפאזל.
                 </h1>

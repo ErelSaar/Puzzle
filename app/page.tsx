@@ -239,7 +239,7 @@ export default function Page() {
                   ניהול צרכים חקירתיים למשרדי עורכי דין
                 </div>
 
-                <h1 className="text-[1.875rem] sm:text-[2.375rem] lg:text-[2.75rem] font-frank font-medium text-text-primary leading-[1.15]">
+                <h1 className="text-[1.875rem] sm:text-[2.375rem] lg:text-[2.75rem] font-semibold text-text-primary leading-[1.2]">
                   כשעולה צורך חקירתי בתיק, פונים לפאזל.
                 </h1>
 
@@ -288,7 +288,7 @@ export default function Page() {
             <div className="mb-12">
               <h2
                 id="services-heading"
-                className="text-[1.5rem] sm:text-[2rem] font-frank font-normal text-text-primary mb-4 leading-[1.3]"
+                className="text-[1.5rem] sm:text-[2rem] font-medium text-text-primary mb-4 leading-[1.3]"
               >
                 מענה לצרכים חקירתיים בתיקי נזיקין
               </h2>
@@ -329,7 +329,7 @@ export default function Page() {
           <div className="max-w-6xl mx-auto px-5">
             <h2
               id="how-heading"
-              className="text-[1.5rem] sm:text-[2rem] font-frank font-normal text-text-primary mb-16 text-center leading-[1.3]"
+              className="text-[1.5rem] sm:text-[2rem] font-medium text-text-primary mb-16 text-center leading-[1.3]"
             >
               איך זה עובד
             </h2>
@@ -396,7 +396,7 @@ export default function Page() {
               <div>
                 <h2
                   id="why-heading"
-                  className="text-[1.5rem] sm:text-[2rem] font-frank font-medium text-text-primary leading-[1.25] mb-5"
+                  className="text-[1.5rem] sm:text-[2rem] font-semibold text-text-primary leading-[1.25] mb-5"
                 >
                   כתובת אחת. תהליך אחד. קשר רציף עם המשרד.
                 </h2>
@@ -445,7 +445,7 @@ export default function Page() {
                 <div>
                   <h2
                     id="contact-heading"
-                    className="text-[1.5rem] sm:text-[2rem] font-frank font-normal text-text-primary mb-4 leading-[1.3]"
+                    className="text-[1.5rem] sm:text-[2rem] font-medium text-text-primary mb-4 leading-[1.3]"
                   >
                     יש צורך חקירתי בתיק? נתחיל בשיחה.
                   </h2>
@@ -493,7 +493,7 @@ export default function Page() {
                 <div className="flex items-center gap-3 mt-auto pt-4 border-t border-border">
                   <Logo size={30} />
                   <div className="flex flex-col">
-                    <span className="text-sm font-frank font-medium text-text-primary leading-snug">פאזל</span>
+                    <span className="text-sm font-semibold text-text-primary leading-snug">פאזל</span>
                     <span className="text-xs text-text-muted leading-tight">ניהול צרכים חקירתיים למשרדי עורכי דין</span>
                   </div>
                 </div>
@@ -518,7 +518,7 @@ export default function Page() {
             <a href="#" className="flex items-center gap-2.5 group" aria-label="פאזל – חזרה לראש הדף">
               <Logo size={28} />
               <div className="flex flex-col">
-                <span className="text-sm font-frank font-medium text-text-primary leading-snug">פאזל</span>
+                <span className="text-sm font-semibold text-text-primary leading-snug">פאזל</span>
                 <span className="text-xs text-text-muted">ניהול צרכים חקירתיים למשרדי עורכי דין</span>
               </div>
             </a>

@@ -395,7 +395,8 @@ export default function Page() {
                 >
                   <span className="text-[1.5rem] sm:text-[2rem] leading-[1.2]">כתובת אחת</span>
                   <span className="text-[1.5rem] sm:text-[2rem] leading-[1.2]">תהליך אחד</span>
-                  <span className="text-[1.25rem] sm:text-[1.625rem] leading-[1.3] text-text-secondary font-medium">קשר רציף עם המשרד</span>
+                  <span className="text-[1.5rem] sm:text-[2rem] leading-[1.2]">קשר רציף עם המשרד </span>
+
                 </h2>
                 <p className="text-text-secondary leading-[1.75] mb-8">
                   פאזל פועלת כמנהלת התהליך מול המשרד. המשרד לא צריך לתאם ישירות מול אנשי
